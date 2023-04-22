@@ -1,6 +1,7 @@
 import {Op, Sequelize} from "sequelize";
 
 const {MYSQL_PASSWORD, MYSQL_USER, MYSQL_DATABASE, MYSQL_HOST, MYSQL_PORT} = process.env;
+console.log(MYSQL_PASSWORD);
 
 const operatorsAliases = {
     $eq: Op.eq,
